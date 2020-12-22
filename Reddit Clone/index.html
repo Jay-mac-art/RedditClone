@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Portfolio</title>
+   <meta name="description" content="This is intial stage Reddit Clone which will be devloped by me">
+   <meta name="keywords" content="Upgrad task">
+   <meta name="author" content="@Jayant Kumar">
+    <base href="." />
+    <title>My own reddit Clone</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/core-js@2.4.1/client/shim.min.js"></script>
+    <script src="https://unpkg.com/zone.js/dist/zone.js"></script>
+    <script src="https://unpkg.com/zone.js/dist/long-stack-trace-zone.js"></script>
+    <script src="https://unpkg.com/reflect-metadata@0.1.3/Reflect.js"></script>
+    <script src="https://unpkg.com/systemjs@0.19.31/dist/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+    System.import('app')
+      .catch(console.error.bind(console));
+  </script>
+
+
+
+  <header class="text-gray-700 body-font">
+    <div class="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row">
+      <a class="flex items-center mb-4 font-medium text-white-900 title-font md:mb-0">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 p-2 text-white bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl">My Reddit clone</span>
+      </a>
+      <nav class="flex flex-wrap items-center justify-center text-base md:ml-auto md:mr-auto">
+      </nav>
+      <a href ="SP.html" target ="_blank">
+      <button class="inline-flex items-center px-3 py-1 mt-4 text-base bg-gray-200 border-0 rounded focus:outline-none hover:bg-gray-300 md:mt-0">Login
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </a>
+    </div>
+  </header>
+  </head>
+
+  <body  class="font-sans antialiased leading-normal tracking-wider text-gray-900 bg-cover" style="background-image:url('https://source.unsplash.com/1600x900/?white,background');">
+    <my-app>
+    loading...
+   </my-app>
+  </body>
+   
+  <footer class="text-gray-700 bg-transparent body-font" >
+	
+    <div class="bg-transparent">
+      <div class="container flex flex-col flex-wrap px-5 py-4 mx-auto sm:flex-row">
+      <p class="text-sm text-center text-gray-500 sm:text-left">© 2020 Jayant Kumar —
+        <a href="https://www.linkedin.com/in/jayant-kumar-0617b9160/" rel="linkedin" class="ml-1 text-gray-600" target="_blank">@jayantkumar</a>
+      </p>
+      </div>
+    </div>
+    </footer>
+</html>
